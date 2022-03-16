@@ -2,7 +2,7 @@
 
 while true; do ping -c1 www.google.com > /dev/null && break; done
 
-sudo chmod +x *
+sudo chmod +x *.sh
 
 sudo apt update && sudo apt upgrade -y
 
